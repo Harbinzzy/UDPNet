@@ -204,7 +204,7 @@ If you find our repo useful for your research, please consider citing our paper:
 
 ## Acknowledgments
 
-This code is based on [FSNet]([https://github.com/swz30/Restormer](https://github.com/c-yn/FSNet), [ConvIR](https://github.com/c-yn/ConvIR), [PoolNet](https://github.com/c-yn/PoolNet) and [AdaIR]([https://github.com/youngwanLEE/MPViT](https://github.com/c-yn/AdaIR)).
+This code is based on [FSNet](https://github.com/c-yn/FSNet), [ConvIR](https://github.com/c-yn/ConvIR), [PoolNet](https://github.com/c-yn/PoolNet) and [AdaIR](https://github.com/c-yn/AdaIR).
 
 ## Contact
-📮📮📮 Should you have any problem, please contact Zengyuan Zuo**<3565741165@qq.com>**. We will response to your request as soon as possible!
+📮📮📮 Should you have any problem, please contact Zengyuan Zuo<3565741165@qq.com>. We will response to your request as soon as possible!
