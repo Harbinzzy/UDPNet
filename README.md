@@ -1,4 +1,4 @@
-# :fire:UDPNet: Unleashing Depth-based Priors for Robust Image Dehazing
+# :fire: UDPNet: Unleashing Depth-based Priors for Robust Image Dehazing
 
 This repository contains the official implementation of the following paper:
 > UDPNet: Unleashing Depth-based Priors for Robust Image Dehazing<br>
@@ -197,7 +197,7 @@ If you find our repo useful for your research, please consider citing our paper:
 
 ```bibtex
 @article{zuo2026udpnet,
-  title={Prompt-In-Prompt Learning for Universal Image Restoration},
+  title={{UDPNet}: Unleashing Depth-based Priors for Robust Image Dehazing},
   author={Zuo, Zengyuan and Jiang, Junjun and Wu, Gang and Liu, Xianming},
   journal={arXiv preprint arXiv:2601.06909},
   year={2026}
