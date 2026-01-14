@@ -12,6 +12,8 @@ This repository contains the official implementation of the following paper:
 ![overall_structure](./figs/pipeline.png)
 >Image dehazing has witnessed significant advancements with the development of deep learning models. However, a few methods predominantly focus on single-modal RGB features, neglecting the inherent correlation between scene depth and haze distribution. Even those that jointly optimize depth estimation and image dehazing often suffer from suboptimal performance due to inadequate utilization of accurate depth information. In this paper, we present UDPNet, a general framework that leverages depth-based priors from large-scale pretrained depth estimation model DepthAnything V2 to boost existing image dehazing models. Specifically, our architecture comprises two typical components: the Depth-Guided Attention Module (DGAM) adaptively modulates features via lightweight depth-guided channel attention, and the Depth Prior Fusion Module (DPFM) enables hierarchical fusion of multi-scale depth map features by dual sliding-window multi-head cross-attention mechanism. These modules ensure both computational efficiency and effective integration of depth priors. Moreover, the intrinsic robustness of depth priors empowers the network to dynamically adapt to varying haze densities, illumination conditions, and domain gaps across synthetic and real-world data. Extensive experimental results demonstrate the effectiveness of our UDPNet, outperforming the state-of-the-art methods on popular dehazing datasets, such as 0.85 dB PSNR improvement on the SOTS dataset, 1.19 dB on the Haze4K dataset and 1.79 dB PSNR on the NHR dataset.
 
+:star: If UDPNet is helpful to your projects, please help star this repo. Thank you! :point_left:
+
 ## Installation
 The project is built with PyTorch 3.8, PyTorch 1.8.1. CUDA 10.2, cuDNN 7.6.5
 For installing, follow these instructions:
@@ -32,7 +34,7 @@ cd ..
 
 ## Pretrained models
 
-**Download Links:**
+**Download Links:** [Baidu Netdisk](https://pan.baidu.com/s/1JqB-YBPzZAiQsdLlNcidLQ?pwd=2026) password: 2026
 
 ## Results
 
@@ -194,11 +196,11 @@ cd ..
 If you find our repo useful for your research, please consider citing our paper:
 
 ```bibtex
-@inproceedings{Zuo2026UDPNetUD,
-  title={UDPNet: Unleashing Depth-based Priors for Robust Image Dehazing},
-  author={Zengyuan Zuo and Junjun Jiang and Gang Wu and Xianming Liu},
-  year={2026},
-  url={https://api.semanticscholar.org/CorpusID:284648596}
+@article{zuo2026udpnet,
+  title={Prompt-In-Prompt Learning for Universal Image Restoration},
+  author={Zuo, Zengyuan and Jiang, Junjun and Wu, Gang and Liu, Xianming},
+  journal={arXiv preprint arXiv:2601.06909},
+  year={2026}
 }
 ```
 

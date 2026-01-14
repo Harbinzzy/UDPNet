@@ -1,0 +1,12 @@
+python main.py \
+--model_name model \
+--mode train \
+--data_dir /data2t/data/dehaze/reside-indoor/ \
+--batch_size 6 \
+--num_worker 36 \
+--learning_rate 4e-4 \
+--num_epoch 1000 \
+--save_freq 50 \
+--valid_freq 1 \
+--logs logs \
+--resume last.ckpt
