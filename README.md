@@ -1,8 +1,8 @@
-# UDPNet: Unleashing Depth-based Priors for Robust Image Dehazing
+# :fire:UDPNet: Unleashing Depth-based Priors for Robust Image Dehazing
 
 This repository contains the official implementation of the following paper:
 > UDPNet: Unleashing Depth-based Priors for Robust Image Dehazing<br>
-> [Zengyuan Zuo](), [Junjun Jiang](http://homepage.hit.edu.cn/jiangjunjun), [Gang Wu](https://me.csgwu.site/), [Xianming Liu](http://homepage.hit.edu.cn/xmliu)<sup>*</sup><br>   
+> [Zengyuan Zuo](), [Junjun Jiang](http://homepage.hit.edu.cn/jiangjunjun)<sup>*</sup>, [Gang Wu](https://me.csgwu.site/), [Xianming Liu](http://homepage.hit.edu.cn/xmliu)<br>   
 
 [AIIA Lab](https://aiialabhit.github.io/team/), Faculty of Computing, Harbin Institute of Technology, Harbin 150001, China.
 
