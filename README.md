@@ -188,3 +188,23 @@ cd ..
 | **AdaIR + UDP (Ours)**    | **31.41** | **0.980** | 37.85     | 0.980     | 31.28     | 0.888     | 28.62     | 0.870     | **23.53** | **0.854** | **30.55** | **0.915** |
 
 </details>
+
+## Citation
+
+If you find our repo useful for your research, please consider citing our paper:
+
+```bibtex
+@inproceedings{Zuo2026UDPNetUD,
+  title={UDPNet: Unleashing Depth-based Priors for Robust Image Dehazing},
+  author={Zengyuan Zuo and Junjun Jiang and Gang Wu and Xianming Liu},
+  year={2026},
+  url={https://api.semanticscholar.org/CorpusID:284648596}
+}
+```
+
+## Acknowledgments
+
+This code is based on [FSNet]([https://github.com/swz30/Restormer](https://github.com/c-yn/FSNet), [ConvIR](https://github.com/c-yn/ConvIR), [PoolNet](https://github.com/c-yn/PoolNet) and [AdaIR]([https://github.com/youngwanLEE/MPViT](https://github.com/c-yn/AdaIR)).
+
+## Contact
+📮📮📮 Should you have any problem, please contact Zengyuan Zuo**<3565741165@qq.com>**. We will response to your request as soon as possible!
