@@ -1,0 +1,12 @@
+python main.py \
+--model_name model \
+--mode train \
+--data_dir /data1t/reside-outdoor/ \
+--batch_size 5 \
+--num_worker 12 \
+--learning_rate 1e-4 \
+--num_epoch 30 \
+--save_freq 1 \
+--valid_freq 1 \
+--logs logs \
+--resume last.ckpt
