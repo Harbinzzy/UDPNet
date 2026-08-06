@@ -34,7 +34,7 @@ cd ..
 
 ## Pretrained models
 
-**Download Links:** [Baidu Netdisk](https://pan.baidu.com/s/1JqB-YBPzZAiQsdLlNcidLQ?pwd=2026) password: 2026
+**Download Links (Dehazing and All-in-One Image Restoration):** [Baidu Netdisk](https://pan.baidu.com/s/1JqB-YBPzZAiQsdLlNcidLQ?pwd=2026) password: 2026
 
 ## Results
 
