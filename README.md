@@ -144,8 +144,25 @@ cd ..
 
 </details>
 
+<details> <summary>Table 6. O-HAZE & I-HAZE</summary>
+
+*Quantitative results on O-HAZE and I-HAZE.*
+
+| Method                  | O-HAZE PSNR ↑ | O-HAZE SSIM ↑ | I-HAZE PSNR ↑ | I-HAZE SSIM ↑ |
+| ----------------------- | ------------- | ------------- | ------------- | ------------- |
+| GridDehazeNet           | 18.92         | 0.672         | 18.73         | 0.769         |
+| MSBDN                   | 24.36         | 0.749         | 19.62         | 0.618         |
+| FFA-Net                 | 22.12         | 0.770         | 19.72         | 0.733         |
+| DeHamer                 | 25.11         | 0.777         | -             | -             |
+| MB-TaylorFormer-B       | 25.05         | <u>0.788</u>  | -             | -             |
+| MB-TaylorFormer-L       | 25.31         | 0.782         | -             | -             |
+| ConvIR **(Baseline)**   | <u>25.36</u>  | 0.780         | <u>22.44</u>  | **0.887**     |
+| **ConvIR + UDP (Ours)** | **25.66**     | **0.79**      | **22.80**     | <u>0.88</u>   |
+
+</details>
+
 🌍<strong>Remote Sensing Image Dehazing</strong>
-<details> <summary>Table 6. Remote Sensing Dehazing</summary>
+<details> <summary>Table 7. Remote Sensing Dehazing</summary>
 
 | Method                   | Thin PSNR | Thin SSIM | Moderate PSNR | Moderate SSIM | Thick PSNR | Thick SSIM |
 | ------------------------ | --------- | --------- | ------------- | ------------- | ---------- | ---------- |
@@ -166,7 +183,7 @@ cd ..
 
 🧪 <strong>All-in-One Image Restoration Benchmarks</strong>
 
-<details> <summary>Table 7. Performance on Five Challenging Benchmarks</summary>
+<details> <summary>Table 8. Performance on Five Challenging Benchmarks</summary>
 
 | Method                    | Dehaze    |           | Derain    |           | Denoise   |           | Deblur    |           | Low-Light |           | Average   |           |
 | ------------------------- | --------- | --------- | --------- | --------- | --------- | --------- | --------- | --------- | --------- | --------- | --------- | --------- |
