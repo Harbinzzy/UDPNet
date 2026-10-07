@@ -150,14 +150,14 @@ cd ..
 
 | Method                  | O-HAZE PSNR ↑ | O-HAZE SSIM ↑ | I-HAZE PSNR ↑ | I-HAZE SSIM ↑ |
 | ----------------------- | ------------- | ------------- | ------------- | ------------- |
-| GridDehazeNet           | 18.92         | 0.672         | 18.73         | 0.769         |
-| MSBDN                   | 24.36         | 0.749         | 19.62         | 0.618         |
-| FFA-Net                 | 22.12         | 0.770         | 19.72         | 0.733         |
-| DeHamer                 | 25.11         | 0.777         | -             | -             |
-| MB-TaylorFormer-B       | 25.05         | <u>0.788</u>  | -             | -             |
-| MB-TaylorFormer-L       | 25.31         | 0.782         | -             | -             |
-| ConvIR **(Baseline)**   | <u>25.36</u>  | 0.780         | <u>22.44</u>  | **0.887**     |
-| **ConvIR + UDP (Ours)** | **25.66**     | **0.79**      | **22.80**     | <u>0.88</u>   |
+| GridDehazeNet           | 18.92         | 0.67          | 18.73         | 0.77          |
+| MSBDN                   | 24.36         | 0.75          | 19.62         | 0.62          |
+| FFA-Net                 | 22.12         | 0.77          | 19.72         | 0.73          |
+| DeHamer                 | 25.11         | 0.78          | -             | -             |
+| MB-TaylorFormer-B       | 25.05         | <u>0.79</u>   | -             | -             |
+| MB-TaylorFormer-L       | 25.31         | 0.78          | -             | -             |
+| <span style="color:blue">ConvIR <strong>(Baseline)</strong></span> | <span style="color:blue"><u>25.36</u></span> | <span style="color:blue">0.78</span> | <span style="color:blue"><u>22.44</u></span> | <span style="color:blue"><u>0.89</u></span> |
+| **ConvIR + UDP (Ours)** | **25.66**     | **0.79**      | **22.80**     | **0.89**      |
 
 </details>
 
